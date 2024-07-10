@@ -13,6 +13,9 @@ class Customer {
     this.phone = phone;
     this.notes = notes;
   }
+  get fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
 
   /** find all customers. */
 
